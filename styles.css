@@ -1,1 +1,24 @@
-
+.container{
+    position: absolute;
+    box-sizing: border-box;
+    background-color:aqua;
+    top: 10px;
+    bottom: 30px;
+    width:;
+    height: 700px;
+    display: flex;
+}
+.id{
+    background-color: white;
+    margin-left: 90px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 80vw;
+    height: 600px;
+}
+.profile{
+    display: flex;
+}
+.info{
+    display: block;
+}
