@@ -1,24 +1,38 @@
+body{
+    background-color: gray;
+}
+.box{
+    width: 100%;
+    background-color: white;
+    margin: 10px;
+}
+.image{
+    position: relative;
+    margin: 25px;
+    padding: 20px;
+}
 .container{
     position: absolute;
-    box-sizing: border-box;
-    background-color:aqua;
-    top: 10px;
-    bottom: 30px;
-    width:;
-    height: 700px;
-    display: flex;
+    top: 45px;
+    left: 525px;
 }
-.id{
-    background-color: white;
-    margin-left: 90px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    width: 80vw;
-    height: 600px;
+label{
+    font-size: 20px;
 }
-.profile{
-    display: flex;
+.about{
+    position: absolute;
+    top: 15px;
+    left: 850px;
+    margin-right: 50px;
 }
-.info{
-    display: block;
+p{
+    font-size: 20px;
+}
+.list{
+    left: 20px;
+    margin: 40px;
+}
+li{
+    font-size: 20px;
+    display: inline-block;
 }
